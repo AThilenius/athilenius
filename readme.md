@@ -40,9 +40,9 @@ It is:
 
 Once I finished with the editor I then built a functional 16 bit CPU in it,
 modeled after the [CL-3B
-micro-architecture](http://users.ece.utexas.edu/~patt/05f.360N/handouts/360n.appC.pdf).
-It's micro-coded with a common 16-bit bus, 8 registers with dual output and a
-16K of RAM (not drawn here).
+ISA](http://users.ece.utexas.edu/~patt/05f.360N/handouts/360n.appC.pdf). It's
+micro-coded with a common 16-bit bus, 8 registers with dual output and a 16K of
+RAM (not drawn here).
 
 ![CPU](https://github.com/AThilenius/logic-paint-rs/blob/main/misc/screenshots/logic-paint-cpu.png?raw=true)
 
