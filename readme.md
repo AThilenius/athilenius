@@ -1,8 +1,6 @@
 # Hello! 👋
 
-## ⚠️ **Recruiters** ⚠️
-
-I'm very happily employed and not looking for a job, sorry.
+> ⚠️ **Recruiters** I'm very happily employed and not looking for a job, sorry.
 
 ---
 
@@ -19,7 +17,7 @@ and high level CI systems) at Google, games at Sunblink, and web stacks all over
 the place. I have a passion for GPUs, hardware and bare-metal software, and
 cutting edge web tech (WASM, WebRTC and WebGPU).
 
-In 2021 I founded Tungsten Labs with my tech lead back from Google, we created
+In 2020 I founded Tungsten Labs with my tech lead back from Google, we created
 [Maglev](https://gitlab.com/tungstenlabs/maglev), a peer-to-peer RPC framework
 built on WebRTC. I'm still very passionate about that project, but it's on hold
 for now.
@@ -34,8 +32,11 @@ It is:
   which sadly isn't playable any more because it's a flash game
 - Written in Rust (because I'm obsessed with Rust)
 - Compiled to WASM
-- Uses WebGPU for fixed-cost hardware accelerated rendering
-- Lets you edit and simulate transistors (something between BJT and CMOS, for you hardware people)
+- Uses WebGL2 for fixed-cost (by pixels) hardware accelerated rendering
+  - Each 'cell' is a single 16 bit unsigned texel and rendered entirely in a
+    fragment shader.
+- Lets you edit and simulate transistors (something between BJT and CMOS, for
+  you hardware people)
 
 Once I finished with the editor I then built a functional 16 bit CPU in it,
 modeled after the [CL-3B
