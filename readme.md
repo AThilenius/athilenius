@@ -69,7 +69,7 @@ _Non-technical Interest / Also Me_
 - 🧗 Rock climbing
 - 😁 Emojis (though I don't normally go this overboard)
 
-## 🖥️ `curl 172.0.0.1`
+## 🖥️ `curl 127.0.0.1`
 
 _Nerd alert, NERD ALERT!!_
 
